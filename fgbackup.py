@@ -51,7 +51,6 @@ def backup_config(fw, username, password):
 
 
 def start(args):
-    firewalls = []
     if len(args) == 0:
         firewalls = get_fw()
     elif len(args) == 1:
