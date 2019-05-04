@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import paramiko
 import getpass
 from scp import SCPClient
